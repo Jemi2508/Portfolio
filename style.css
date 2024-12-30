@@ -1,0 +1,190 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #fff;
+    background: #000;
+}
+
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+.skills-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: #222;
+    color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.skills-table thead tr {
+    background: #4CAF50;
+    color: white;
+    text-align: left;
+}
+
+.skills-table th,
+.skills-table td {
+    padding: 12px 15px;
+    border: 1px solid #444;
+    text-align: center;
+}
+
+.skills-table tbody tr:nth-child(even) {
+    background: #333;
+}
+
+.skills-table tbody tr:hover {
+    background: #555;
+}
+
+
+h2 {
+    color: #4CAF50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Container for the entire certifications section */
+#certifications {
+    background-color: #222;
+    color: white;
+    padding: 40px 0;
+}
+
+/* Carousel container */
+.carousel {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Inner container for slides */
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Individual carousel items */
+.carousel-item {
+    flex: 0 0 100%;
+    text-align: center;
+}
+
+.carousel-item img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.carousel-item p {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Navigation buttons */
+.carousel button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 2;
+}
+
+.carousel .prev {
+    left: 10px;
+}
+
+.carousel .next {
+    right: 10px;
+}
+
+/* Navigation dots */
+.dots-container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.dots-container .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+    background-color: gray;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.dots-container .dot.active {
+    background-color: #4CAF50;
+}
+#achievements {
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 40px 20px;
+    text-align: left;
+}
+
+#achievements h2 {
+    text-align: center;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.achievements-list {
+    list-style-type: none;
+    padding: 0;
+    max-width: 800px;
+    margin: auto;
+}
+
+.achievements-list li {
+    margin-bottom: 20px;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+.achievements-list strong {
+    color: #4CAF50;
+}
+
+.achievements-list em {
+    font-style: italic;
+}
